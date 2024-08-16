@@ -60,6 +60,9 @@ button,
 a {
   outline: none;
 }
+.anchor, .cup {
+  padding: 0 8px;
+}
 /* Header Style */
 header {
   background-color: #f44336;
@@ -126,7 +129,7 @@ h1 {
 }
 /* Main > Anchor Style */
 .wrapper {
-  width: 51.5%;
+  max-width: 980px;
   margin: 0 auto;
   display: flex;
   align-items: center;
