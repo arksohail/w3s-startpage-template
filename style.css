@@ -166,3 +166,15 @@ img {
 .cup {
   background-color: #f1f1f1;
 }
+/* Quote Style */
+.quote {
+  background-color: #000;
+  opacity: 0.6;
+  padding: 64px 0;
+}
+.quote h3 {
+  margin: 16px 0;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
