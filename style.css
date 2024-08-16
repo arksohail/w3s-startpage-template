@@ -29,3 +29,34 @@ video {
   display: block;
   max-width: 100%;
 }
+/* Common Style */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+p {
+  font-family: "Lato", sans-serif;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 16px;
+  transition: 0.2s ease;
+}
+ul {
+  list-style-type: none;
+}
+input,
+button,
+a {
+  outline: none;
+}
