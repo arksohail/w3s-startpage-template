@@ -60,3 +60,60 @@ button,
 a {
   outline: none;
 }
+/* Header Style */
+header {
+  background-color: #f44336;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.nav-bar {
+  display: flex;
+}
+.nav-bar a {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+.nav-bar a.active,
+.nav-bar a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.nav-bar a.active:hover {
+  background-color: #ccc;
+}
+/* Main > Banner Style */
+.banner {
+  background-color: #f44336;
+  color: #fff;
+  text-align: center;
+  padding: 51px 0 128px;
+}
+h1 {
+  font-size: 64px;
+  padding-top: 93px;
+}
+
+.banner p,
+.banner p a {
+  font-size: 24px;
+  padding: 0;
+}
+.banner p {
+  margin-top: 24px;
+}
+.banner button {
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  margin-top: 40px;
+}
+.banner button:hover {
+  background-color: #ccc;
+  color: #000;
+}
