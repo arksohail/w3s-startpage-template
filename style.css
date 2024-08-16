@@ -96,7 +96,6 @@ h1 {
   font-size: 64px;
   padding-top: 93px;
 }
-
 .banner p,
 .banner p a {
   font-size: 24px;
@@ -105,13 +104,19 @@ h1 {
 .banner p {
   margin-top: 24px;
 }
+.banner p a {
+  border-bottom: 2px solid transparent;
+}
+.banner p a:hover {
+  border-bottom: 2px solid white;
+}
 .banner button {
   font-size: 18px;
   padding: 12px 24px;
   border: none;
   background-color: #000;
   color: #fff;
-  margin-top: 40px;
+  margin-top: 38px;
 }
 .banner button:hover {
   background-color: #ccc;
